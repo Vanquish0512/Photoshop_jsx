@@ -1,45 +1,52 @@
-# ポートフォリオ情報
-制作したポートフォリオを掲載しています。
-## サイト名
-東京学院
-
-## サイトURl
-http://iida717.wp.xdomain.jp/  
-現在のテーマ。
-
-## コンセプト
-塾のサイトを作成  
-フラットデザインかつマテリアルデザイン  
-を意識して制作。明るいイメージ。
+# 主な機能
+Web制作を効率的に行うためのjsxを制作しました。
+主な機能は5つあります。
+1.カンパスサイズ変更
+2.Retina用生成+拡張子付与
+3.PN背景透明PNG用
+4.単発Retina+jpg
 
 ## Development tools
 
 | Category | Names |
 |:-----------|------------:|
-| Language   |  PHP5.5, JavaScript, CSS, HTML5 |
-| Database   |  MySQL (InnoDB) |
-| soft       |  Dreamweaver,Illustrator,Photoshop|
-| CMS        |  WordPress |
-| font       |  Google-font NotoSansCJKjp-Bold_sb, NotoSansCJKjp-DemiLight_sb|
-| Framework  |  material design　http://daemonite.github.io/material/ |
-
-**使用jQuery**
-* http://git.blivesta.com/animsition/
-* http://kenwheeler.github.io/slick/
+| Photoshop   | jsx |
 
 
 ## 制作期間
-1.5ヶ月
+2日
 
+## 使い方
+1.カンパスサイズ変更
+　選択したレイヤーをカンパスサイズに合わせます。
+　全てのサイズを統一にさせたい場合にお使いください。
 
+2.Retina用生成+拡張子付与
+    アセット保存を使用したい場合に便利です。
+    レイヤー全てに拡張子(xxxx.jpg8)を付けます。また、Retina用に
+    も2xを自動付与しますので、アセット保存用には便利です。
+ 
+3. PN背景透明PNG用
+    アセット保存でのPNG保存の場合、自動的に透明部分をトリミングしてしまうため
+    メニューなどのサイズを均一にする場合はアセット保存は不便です。
+    こちらの機能は背景透明でかつ画像サイズを均一に揃えたい場合に便利です。
+    自動にRetina用も出力してくれますので、2x用の画像も不要です。
+    
+4. 単発Retina+jpg
+    数枚だけ画像を変更したい場合に便利です。自動でjpgを指定サイズとRetina用
+    を生成します。
+    単発と書いてありますが、実際はレイヤーを全て持ってくるので、3.PN背景透明PNG用
+    のjpg版です。
+    
 ## 工夫点  
-イベントやお知らせを想定してWordPressを使用し  
-スマホタッチに対応したスライダーを使用。問い合わせ部分は  
-material-designのフレームワークを使用。  
-header部分は、200px以上のスクロールをすると邪魔にならないように  
-非表示にし、上にスクロールすると表示されるようにした。  
-画面遷移にアニメーションを起用。
+3.4の機能はPhotoshop標準のWeb用に保存を使用しているので軽量化してあります。
 
-## 注意
-実際にメールは送れません。  
-実際に存在する企業ではありません。
+## 不具合点
+レイヤーが新規グループに入ってる場合は保存できません。
+グループ内のレイヤーを結合orスマートオプションにしてグループから出してください。
+
+## ライセンス
+MIT
+ご自由にお使いください。
+
+
